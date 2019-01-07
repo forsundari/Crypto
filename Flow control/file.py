@@ -1,0 +1,5 @@
+fb =open(desktop,'w+')
+fb.write("hello sample")
+fb.seek(0)
+print(fb.read())
+fb.close()
